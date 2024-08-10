@@ -1,0 +1,16 @@
+body{
+background-color: #000000;
+
+
+
+}
+.hero{
+background-image:url(./assets/images/girls.png) ;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+.nav{
+z-index:10000px;
+
+}
