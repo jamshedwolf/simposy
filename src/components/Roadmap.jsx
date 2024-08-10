@@ -119,7 +119,7 @@ function Roadmap() {
 
 
 
-                <div className="   w-[1px] mt-40 hidden lg:block  border-white border-l-4 border-dotted"></div>
+                <div className=" h-[2500px]  w-[1px] mt-40 hidden lg:block  border-white border-l-4 border-dotted"></div>
 
                 <div className="flex flex-col items-center lg:hidden gap-20 justify-center">
 
