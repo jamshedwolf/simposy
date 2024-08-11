@@ -11,10 +11,10 @@ import twtr from '../assets/images/twtr.svg';
 
 function Partners() {
     return (
-        <div className='flex flex-col gap-5 '>
+        <div className='flex  flex-col  gap-5 '>
             <div className="max-w-[1400px] mx-auto">
                 <div className="flex py-10 lg:py-20 items-center justify-center gap-10 flex-col ">
-                    <p className="  text-6xl  text-[#f87a23] erth "><span className="origin text-white">PART</span>NERS</p>
+                    <p className="  lg:text-6xl  text-5xl text-[#f87a23] origin "><span className="origin text-white">PART</span>NERS</p>
                     <div className="flex items-center justify-center gap-5 flex-col lg:flex-row">
                         <a href="https://pulsechain.com" target='_blank' >
                             <img src={pulse} alt="PulseChain" className="border-2 p-2 rounded-lg w-[200px] h-[80px] transition-all duration-200 hover:scale-110" />
@@ -33,8 +33,8 @@ function Partners() {
 
                
             </div>
-<div className="bg-[#282828]">
-            <div className="flex flex-col md:flex-row p-5 px-5 rounded-lg gap-10 bg-[#282828] w-full items-center justify-center lg:justify-between  mt-20">
+<div className="bg-[#282828] flex flex-col h-[70vh] lg:h-auto p-3 gap-2">
+            <div className="flex  flex-col md:flex-row p-5 px-5 rounded-lg gap-10 bg-[#282828] w-full items-center justify-center lg:justify-between   lg:mt-20">
                     <div className=" flex text-center">
                         <img src={logo} alt="Main Logo" className="w-[150px]" />
                     </div>
@@ -53,7 +53,7 @@ function Partners() {
                     </div>
                 </div>
 
-                <p className="text-center lg:text-xl p-5 text-white">
+                <p className="text-center lg:text-xl  text-white">
                 SIMP isn't just a cryptocurrency, it's a community. Our dedicated members work together to shape the future of the project. Join us!</p>
                 <p className="text-center text-sm p-5 text-white">© 2023 by SIMP. All rights reserved!
                </p>

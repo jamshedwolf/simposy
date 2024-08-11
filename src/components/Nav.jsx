@@ -3,8 +3,9 @@ import logo from '../assets/images/mainlogo.png';
 import { FaDiscord, FaBars, FaTimes } from 'react-icons/fa';
 import discord from '../assets/images/discord.svg';
 import tele from '../assets/images/tele.svg';
-import twtr from '../assets/images/twtr.svg';
+import twtr from '../assets/images/twiter.webp';
 import { Link, Element } from 'react-scroll';
+import { FaWallet } from "react-icons/fa6";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,9 +19,9 @@ function Nav() {
       {/* Large screen */}
       <div className="items-center justify-evenly max-w-[1400px] mx-auto hidden lg:flex">
         <div className="flex-[.3] flex items-center justify-center text-center">
-          <img src={logo} alt="" className="w-[150px]" />
+          <img src={logo} alt="" className="w-[100px]" />
         </div>
-        <div className="flex-[.7] text-[#ff9700] flex items-center justify-center gap-5">
+        <div className="flex-[.7] origin text-[#ff9700] flex items-center justify-center gap-5">
           <div className="flex items-center text-[18px] justify-evenly gap-3">
             <p className="cursor-pointer">Home</p>
             <Link  to="about" smooth={true} duration={1000} className="btn cursor-pointer">
@@ -32,7 +33,7 @@ function Nav() {
             <Link to="Roadmap" smooth={true} duration={1000} className="btn cursor-pointer">
             Roadmap
             </Link>
-            <Link to=" How To Buy" smooth={true} duration={1000} className="btn cursor-pointer">
+            <Link to="Buy" smooth={true} duration={1000} className="btn cursor-pointer">
             How To Buy
             </Link>
             <Link to="Contact" smooth={true} duration={1000} className="btn cursor-pointer">
@@ -43,19 +44,19 @@ function Nav() {
 
           <div className="flex text-black items-center justify-center gap-4">
             <a href="" target='blank'>
-              <img src={discord}    alt="Discord" className="w-8" />
+              <img src={discord}    alt="Discord" className="w-8 transition-all duration-300 hover:scale-110" />
             </a>
             <a href=""   target='blank'>
-              <img src={tele} alt="Telegram" className="w-8" />
+              <img src={tele} alt="Telegram" className="w-8 transition-all duration-300 hover:scale-110" />
             </a>
             <a href=""  target='blank'  >
-              <img src={twtr} alt="Twitter" className="w-8" />
+              <img src={twtr} alt="Twitter" className="w-8 h-8  transition-all duration-300 hover:scale-110 rounded-full" />
             </a>
           </div>
 
 
-          <button className="px-3 bg-[#ff9900] hover:bg-transparent hover:border-2 border-[#ff9900] text-white rounded-full py-1 min-w-fit">
-            Connect Wallet
+          <button className="px-5 gap-2 flex items-center transition-all duration-300  bg-[#ff9900] hover:bg-transparent hover:border-2 border-[#ff9900] text-white rounded-lg py-1 min-w-fit">
+          <FaWallet/> Connect Wallet
           </button>
         </div>
       </div>
@@ -69,7 +70,7 @@ function Nav() {
       </div>
 
       {isOpen && (
-        <div className="lg:hidden p-2  bg-black z-50  flex flex-col items-center mt-5 text-[#ff9700] space-y-4">
+        <div className="lg:hidden p-2 origin bg-black z-50  flex flex-col items-center mt-5 text-[#ff9700] space-y-4">
           <p className="cursor-pointer">Home</p>
             <Link  onClick={toggleMenu} to="about" smooth={true} duration={1000} className="btn cursor-pointer">
               About
@@ -100,8 +101,8 @@ function Nav() {
           </div>
 
 
-          <button className="px-5 bg-[#ff9900] hover:bg-transparent hover:border-2 border-[#ff9900] text-white rounded-full py-2">
-            Connect Wallet
+          <button className="px-5 flex gap-2 items-center bg-[#ff9900] hover:bg-transparent hover:border-2 border-[#ff9900] text-white rounded-lg py-2">
+          <FaWallet/> Connect Wallet
           </button>
         </div>
       )}

@@ -37,11 +37,22 @@ body {
 }
 
 .origin {
-    font-family: 'origin', sans-serif; /* Fallback to sans-serif */
+    font-family: "Boogaloo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-.erth {
-    font-family: 'earth', sans-serif; /* Fallback to sans-serif */
-}
+
 .atom {
     font-family: 'atom', sans-serif; /* Fallback to sans-serif */
 }
+ .gre{
+    background: conic-gradient(
+        rgb(6, 236, 6) 0deg,
+        rgb(4, 238, 4) 90deg,
+        rgb(100, 196, 11) 90deg,
+        #2bff00 270deg,
+        rgb(41, 146, 41) 270deg,
+        green 360deg
+      );
+
+ }

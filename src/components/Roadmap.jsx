@@ -7,7 +7,7 @@ function Roadmap() {
         <div className='py-10 '>
             <div className="max-w-[1400px] relative  text-[18px] text-white mx-auto   gap-5 flex flex-col  items-center justify-center p-2 lg:p-20">
                 <div className=" flex flex-col gap-5">
-                    <p data-aos="fade-left" className=" text-center text-3xl lg:text-6xl origin ">ROAD<span className="erth text-[#f87a23]">MAP</span></p>
+                    <p data-aos="fade-left" className=" text-center text-5xl lg:text-6xl origin ">ROAD<span className="erth text-[#f87a23]">MAP</span></p>
                     <p data-aos="fade-right" className="text-center ">
 
                         Our roadmap is a testament to our commitment to building a vibrant community centered around memes and <br />cryptocurrency. We believe in the power of laughter, creativity, and the boundless potential of blockchain <br />technology.</p>
