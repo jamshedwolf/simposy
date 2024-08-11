@@ -1,16 +1,47 @@
-body{
-background-color: #000000;
-
-
-
+body {
+    background-color: #000000;
+    scroll-behavior: smooth;
+    margin: 0; /* Ensure no default margin */
+    padding: 0; /* Ensure no default padding */
+  /* Default font to 'origin' */
 }
-.hero{
-background-image:url(./assets/images/girls.png) ;
-background-repeat: no-repeat;
-background-position: center;
 
+@font-face {
+    font-family: 'origin';
+    src: url('./assets/font/origin.otf') format('opentype'),
+         url('./assets/font/origin2.ttf') format('truetype');
+ 
 }
-.nav{
-z-index:10000px;
+@font-face {
+    font-family: 'earth';
+    src: url('./assets/font/earth.otf') format('opentype');
+        
+ 
+}
+@font-face {
+    font-family: 'fs_lite';
+    src: url('./assets/font/atom.otf') format('opentype');
+        
+ 
+}
 
+.hero {
+    background-image: url('./assets/images/girls.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Ensure the image covers the entire container */
+}
+
+.nav {
+    z-index: 10000; /* Corrected z-index */
+}
+
+.origin {
+    font-family: 'origin', sans-serif; /* Fallback to sans-serif */
+}
+.erth {
+    font-family: 'earth', sans-serif; /* Fallback to sans-serif */
+}
+.atom {
+    font-family: 'atom', sans-serif; /* Fallback to sans-serif */
 }

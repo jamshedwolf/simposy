@@ -4,6 +4,7 @@ import { FaDiscord, FaBars, FaTimes } from 'react-icons/fa';
 import discord from '../assets/images/discord.svg';
 import tele from '../assets/images/tele.svg';
 import twtr from '../assets/images/twtr.svg';
+import { Link, Element } from 'react-scroll';
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,7 @@ function Nav() {
   };
 
   return (
-    <div className=" px-0 fixed nav z-50 bg-black top-0 left-0 right-0">
+    <div className=" px-0 fixed nav z-50  lg:bg-transparent top-0 left-0 right-0">
       {/* Large screen */}
       <div className="items-center justify-evenly max-w-[1400px] mx-auto hidden lg:flex">
         <div className="flex-[.3] flex items-center justify-center text-center">
@@ -22,11 +23,22 @@ function Nav() {
         <div className="flex-[.7] text-[#ff9700] flex items-center justify-center gap-5">
           <div className="flex items-center text-[18px] justify-evenly gap-3">
             <p className="cursor-pointer">Home</p>
-            <p className="cursor-pointer">About</p>
-            <p className="cursor-pointer">Tokenomics</p>
-            <p className="cursor-pointer">Roadmap</p>
-            <p className="cursor-pointer">How To Buy</p>
-            <p className="cursor-pointer">Contact</p>
+            <Link  to="about" smooth={true} duration={1000} className="btn cursor-pointer">
+              About
+            </Link>
+            <Link to="Tokenomics" smooth={true} duration={1000} className="btn cursor-pointer">
+            Tokenomics
+            </Link>
+            <Link to="Roadmap" smooth={true} duration={1000} className="btn cursor-pointer">
+            Roadmap
+            </Link>
+            <Link to=" How To Buy" smooth={true} duration={1000} className="btn cursor-pointer">
+            How To Buy
+            </Link>
+            <Link to="Contact" smooth={true} duration={1000} className="btn cursor-pointer">
+            Contact
+            </Link>
+           
           </div>
 
           <div className="flex text-black items-center justify-center gap-4">
@@ -59,11 +71,21 @@ function Nav() {
       {isOpen && (
         <div className="lg:hidden p-2  bg-black z-50  flex flex-col items-center mt-5 text-[#ff9700] space-y-4">
           <p className="cursor-pointer">Home</p>
-          <p className="cursor-pointer">About</p>
-          <p className="cursor-pointer">Tokenomics</p>
-          <p className="cursor-pointer">Roadmap</p>
-          <p className="cursor-pointer">How To Buy</p>
-          <p className="cursor-pointer">Contact</p>
+            <Link  onClick={toggleMenu} to="about" smooth={true} duration={1000} className="btn cursor-pointer">
+              About
+            </Link>
+            <Link onClick={toggleMenu} to="Tokenomics" smooth={true} duration={1000} className="btn cursor-pointer">
+            Tokenomics
+            </Link>
+            <Link onClick={toggleMenu} to="Roadmap" smooth={true} duration={1000} className="btn cursor-pointer">
+            Roadmap
+            </Link>
+            <Link onClick={toggleMenu} to=" How To Buy" smooth={true} duration={1000} className="btn cursor-pointer">
+            How To Buy
+            </Link>
+            <Link onClick={toggleMenu} to="Contact" smooth={true} duration={1000} className="btn cursor-pointer">
+            Contact
+            </Link>
 
           <div className="flex text-black items-center justify-center gap-4">
             <a href="#" aria-label="Discord" target='blank'>
