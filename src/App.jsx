@@ -12,6 +12,7 @@ import { useEffect } from 'react';
 import Partners from './components/Partners';
 import Tokenomics from './components/Tokenomics';
 import Web from './components/Web';
+import Profile from './components/Profile';
 
 
 
@@ -30,6 +31,7 @@ function App() {
       <Video />
       <About />
       <Tokenomics/>
+      <Profile/>
       <Roadmap />
       <Web/>
       <Partners />
