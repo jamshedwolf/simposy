@@ -18,17 +18,26 @@ function Tokenomics() {
     };
     return (
         <Element name='Tokenomics'>
-            <div className="pt-20 text-white flex flex-col p-4 gap-5 lg:h-screen">
+            <div className="pt-20 text-white relative flex flex-col p-4 gap-5 ">
+            <div className="absolute top-0 left-1/4  z-[-1] w-[300px] h-[300px] bg-orange-500 rounded-full blur-3xl opacity-50"></div>
+        <div className="absolute top-1/2 right-[120px] z-[-1] w-[300px] h-[300px] bg-purple-500 rounded-full blur-[80px] opacity-60"></div>
+        <div className="absolute bottom-0 left-0 z-[-1] w-[200px] h-[200px] bg-pink-500 rounded-full blur-3xl opacity-50"></div>
                 <div className='text-white uppercase origin text-5xl lg:text-6xl text-center '>Toke<span className="uppercase text-[#f87a23] erth">nomics</span></div>
+
+                <div className="text-center">The SIMP token ($IMP) is the native cryptocurrency of our community.<br/>
+“0% of tokens were given to founders, 100% was on offer with <a href="www.coinhub.gg" target='blank' className="cursor-pointer text-[#ff9700]">coinhub.gg</a> fair launch <br/>platform meaning all tokens belong to the community with founders needing to buy from the launch pool on CoinHub.
+
+<p className="mt-3">With our special $IMP NFT collections on our road map you will need to be holding $IMP coins to be able to mint.<br/> Depending on the rarity of the</p>
+</div>
                 <div className="flex items-center flex-col lg:flex-row justify-center h-full gap-10">
-                    <div data-aos="fade-right" className="border lg:w-[390px]    h-[550px] bg-[#131210] rounded-[20px] py-20 flex items-center justify-center flex-col gap-2 p-2  lg:p-5">
+                    <div data-aos="fade-right" className="border w-[350px] lg:w-[420px] h-[650px]    rounded-[20px] py-20 flex items-center justify-center flex-col gap-2 p-2  lg:p-5">
                         <p className="text-3xl  origin text-[#ff9700]">Token Info</p>
                         <div className="flex flex-col  items-center justify-center text-[18px] gap-4 ">
                             <p className="">Token Type: Pulsechain</p>
                             <p className="">Token Name: $IMP (SIMP)</p>
                             <p className="">Total Supply: 1,000,000,000</p>
                             <p className="">$IMP</p>
-                            <div className="flex items-center border rounded-full active:bg-[#f87a23]  overflow-hidden justify-center">
+                            <div className="flex items-center border rounded-lg active:bg-[#f87a23]  overflow-hidden justify-center">
                                 <input
                                     type="text"
                                     value={walletAddress}
@@ -43,17 +52,18 @@ function Tokenomics() {
 
                             </div>
                             <a href="https://scan.9inch.io/#/address/0xdaca90aB4F1e776915B48cDfc70a043EdE0Dca83" target='blank' className="mt-5">
-                                <button className="px-3 rounded-full py-1 bg-[#df752a] hover:bg-[#ff9041]">
+                                <button className="px-3 rounded-lg py-1 bg-[#df752a] hover:bg-[#ff9041]">
                                     VIEW ON Pulsechain Scan
                                 </button>
                             </a>
                         </div>
 
                     </div>
-                    <div data-aos="fade-left" className="border lg:w-[390px] h-[550px] py-10 flex flex-col bg-[#131210]  items-center gap-7  justify-center rounded-[20px] p-5">
+                    <div data-aos="fade-left" className="border w-[350px] lg:w-[420px] h-[650px] py-10 flex flex-col bg-transparent  items-center gap-7  justify-center rounded-[20px] p-5">
                         <p className="text-3xl  origin text-[#ff9700] text-center">Token <span className="origin text-white">Distribution</span></p>
-
+<p className="text-center">$IMP was fairly launched on coinhub where everyone, even the founders purchased their allocations, nothing was given for free.</p>
                         <div className="flex  text gap-5">
+                            
                             <div className="">-3% Liquidity</div>
                             <div className="">12% Locked</div>
 

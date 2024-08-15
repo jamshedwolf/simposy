@@ -4,7 +4,15 @@ import { Element } from 'react-scroll'
 
 function Roadmap() {
     return ( <Element name='Roadmap'>
-        <div className='py-10 '>
+        <div className='py-10 relative '>
+
+        <div className="absolute w-[300px] h-[300px] bg-[#f87a23] rounded-full blur-[150px] opacity-100 top-[20%] left-[15%]"></div>
+<div className="absolute w-[400px] h-[400px] bg-[#00a7a7] rounded-full blur-[200px] opacity-100 top-[60%] right-[20%]"></div>
+<div className="absolute w-[400px] h-[200px] bg-[#00a7a7] rounded-full blur-[200px] opacity-100 bottom-[20%] left-[20%]"></div>
+<div className="absolute w-[250px] h-[250px] bg-[#ec8c00] rounded-full blur-[125px] opacity-100 bottom-[10%] left-[80%]"></div>
+<div className="absolute w-[350px] h-[350px] bg-[#f87a23] rounded-full blur-[275px] opacity-100 bottom-[60%] left-[10%]"></div>
+<div className="absolute w-[200px] h-[200px] bg-[#00a7a7] rounded-full blur-[100px] opacity-100 top-[10%] right-[40%]"></div>
+
             <div className="max-w-[1400px] relative  text-[18px] text-white mx-auto   gap-5 flex flex-col  items-center justify-center p-2 lg:p-20">
                 <div className=" flex flex-col gap-5">
                     <p data-aos="fade-left" className=" text-center text-5xl lg:text-6xl origin ">ROAD<span className="erth text-[#f87a23]">MAP</span></p>

@@ -7,7 +7,7 @@ import logo from '../assets/images/mainlogo.png';
 
 import discord from '../assets/images/discord.svg';
 import tele from '../assets/images/tele.svg';
-import twtr from '../assets/images/twtr.svg';
+import twtr from '../assets/images/twiter.webp';
 
 function Partners() {
     return (
@@ -31,36 +31,39 @@ function Partners() {
                     </div>
                 </div>
 
-               
+
             </div>
-<div className="bg-[#282828] flex flex-col h-[70vh] lg:h-auto p-3 gap-2">
-            <div className="flex  flex-col md:flex-row p-5 px-5 rounded-lg gap-10 bg-[#282828] w-full items-center justify-center lg:justify-between   lg:mt-20">
+            <div className="bg-[#282828] flex flex-col h-[70vh] lg:h-auto p-3 gap-2">
+                <div className="flex  flex-col md:flex-row p-5 px-5 rounded-lg gap-10 bg-[#282828] w-full items-center justify-center lg:justify-between   lg:mt-10">
                     <div className=" flex text-center">
-                        <img src={logo} alt="Main Logo" className="w-[150px]" />
+                        <img src={logo} alt="Main Logo" className="w-[100px] transition-all duration-300 hover:scale-110 " />
+                    </div>
+                    <div className="flex flex-col items-center justify-center gap-3">
+                        <p className="text-center lg:text-xl  text-white">
+                            SIMP isn't just a cryptocurrency, it's a community. Our dedicated members work together to shape the future of the project. Join us!</p>
+                        <p className="text-center text-sm p-5 text-white">© 2023 by SIMP. All rights reserved!
+                        </p>
                     </div>
                     <div className=" text-[#ff9700] flex items-center justify-center gap-5 mt-5">
                         <div className="flex text-black items-center justify-center gap-4">
                             <a href="#" target='_blank'>
-                                <img src={discord} alt="Discord" className="w-8" />
+                                <img src={discord} alt="Discord" className="w-8 transition-all duration-300 hover:scale-110 rounded-full" />
                             </a>
-                            <a href="#" target='_blank'>
-                                <img src={tele} alt="Telegram" className="w-8" />
+                            <a href=" https://t.me/PLS_SIMP_HUB" target='_blank'>
+                                <img src={tele} alt="Telegram" className="w-8 transition-all duration-300 hover:scale-110 rounded-full" />
                             </a>
-                            <a href="#" target='_blank'>
-                                <img src={twtr} alt="Twitter" className="w-8" />
+                            <a href="https://x.com/pls_simp" target='_blank'>
+                                <img src={twtr} alt="Twitter" className="w-8 h-8  transition-all duration-300 hover:scale-110 rounded-full" />
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <p className="text-center lg:text-xl  text-white">
-                SIMP isn't just a cryptocurrency, it's a community. Our dedicated members work together to shape the future of the project. Join us!</p>
-                <p className="text-center text-sm p-5 text-white">© 2023 by SIMP. All rights reserved!
-               </p>
-                </div>
 
-                
-       
+            </div>
+
+
+
         </div>
     )
 }

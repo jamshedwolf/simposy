@@ -2,8 +2,11 @@ body {
     background-color: #000000;
     scroll-behavior: smooth;
     margin: 0; /* Ensure no default margin */
-    padding: 0; /* Ensure no default padding */
+    padding: 0; /*
+    pos Ensure no default padding */
   /* Default font to 'origin' */
+
+  position: relative;
 }
 
 @font-face {
@@ -29,12 +32,13 @@ body {
     background-image: url('./assets/images/girls.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; /* Ensure the image covers the entire container */
+    background-size: contain; /* Ensure the image covers the entire container */
 }
 
 .nav {
     z-index: 10000; /* Corrected z-index */
 }
+
 
 .origin {
     font-family: "Boogaloo", sans-serif;
@@ -56,3 +60,41 @@ body {
       );
 
  }
+
+ .loader{
+z-index: 200 !important;
+
+animation: load 5s ease-in-out forwards;
+
+ }
+
+ @keyframes load {
+
+    0% {
+        opacity: 1;
+        visibility: visible;
+        overflow: hidden;
+      }
+      100% {
+        opacity: 0;
+        visibility: hidden;
+        overflow:visible ;
+      }
+ }
+ /* .about{
+background-image: url(./assets/images/bg.jpg);
+background-color: #000000af;
+background-repeat: no-repeat;
+background-position: top;
+background-size: cover; 
+
+ } */
+ /* .about::before{
+content: "";
+position: absolute;
+width:100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.404);
+
+
+ } */

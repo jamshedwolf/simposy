@@ -15,30 +15,66 @@ function Nav() {
   };
 
   return (
-    <div className=" px-0 fixed nav z-50  lg:bg-transparent top-0 left-0 right-0">
+    <div className=" px-0 fixed nav z-50   lg:bg-transparent top-0 left-0 right-0">
       {/* Large screen */}
       <div className="items-center justify-evenly max-w-[1400px] mx-auto hidden lg:flex">
         <div className="flex-[.3] flex items-center justify-center text-center">
-          <img src={logo} alt="" className="w-[100px]" />
+          <img src={logo} alt="" className="w-[100px] transition-all duration-300 hover:scale-110 " />
         </div>
         <div className="flex-[.7] origin text-[#ff9700] flex items-center justify-center gap-5">
           <div className="flex items-center text-[18px] justify-evenly gap-3">
             <p className="cursor-pointer">Home</p>
-            <Link  to="about" smooth={true} duration={1000} className="btn cursor-pointer">
-              About
-            </Link>
-            <Link to="Tokenomics" smooth={true} duration={1000} className="btn cursor-pointer">
-            Tokenomics
-            </Link>
-            <Link to="Roadmap" smooth={true} duration={1000} className="btn cursor-pointer">
-            Roadmap
-            </Link>
-            <Link to="Buy" smooth={true} duration={1000} className="btn cursor-pointer">
-            How To Buy
-            </Link>
-            <Link to="Contact" smooth={true} duration={1000} className="btn cursor-pointer">
-            Contact
-            </Link>
+            <Link
+  to="about"
+  smooth={true}
+  duration={1000}
+  className="relative group btn cursor-pointer transition-all duration-300"
+>
+  About
+  <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#ec8c00] transition-all duration-300 group-hover:w-full"></span>
+</Link>
+
+<Link
+  to="Tokenomics"
+  smooth={true}
+  duration={1000}
+  className="relative group btn cursor-pointer transition-all duration-300"
+>
+  Tokenomics
+  <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#ec8c00] transition-all duration-300 group-hover:w-full"></span>
+</Link>
+
+<Link
+  to="Roadmap"
+  smooth={true}
+  duration={1000}
+  className="relative group btn cursor-pointer transition-all duration-300"
+>
+  Roadmap
+  <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#ec8c00] transition-all duration-300 group-hover:w-full"></span>
+</Link>
+
+<Link
+  to="Buy"
+  smooth={true}
+  duration={1000}
+  className="relative group btn cursor-pointer transition-all duration-300"
+>
+  How To Buy
+  <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#ec8c00] transition-all duration-300 group-hover:w-full"></span>
+</Link>
+
+<Link
+  to="Contact"
+  smooth={true}
+  duration={1000}
+  className="relative group btn cursor-pointer transition-all duration-300"
+>
+  Contact
+  <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#ec8c00] transition-all duration-300 group-hover:w-full"></span>
+</Link>
+
+
            
           </div>
 
@@ -46,10 +82,10 @@ function Nav() {
             <a href="" target='blank'>
               <img src={discord}    alt="Discord" className="w-8 transition-all duration-300 hover:scale-110" />
             </a>
-            <a href=""   target='blank'>
+            <a href=" https://t.me/PLS_SIMP_HUB"   target='blank'>
               <img src={tele} alt="Telegram" className="w-8 transition-all duration-300 hover:scale-110" />
             </a>
-            <a href=""  target='blank'  >
+            <a href="https://x.com/pls_simp"  target='blank'  >
               <img src={twtr} alt="Twitter" className="w-8 h-8  transition-all duration-300 hover:scale-110 rounded-full" />
             </a>
           </div>
@@ -92,10 +128,10 @@ function Nav() {
             <a href="#" aria-label="Discord" target='blank'>
               <img src={discord} alt="Discord" className="w-8" />
             </a>
-            <a href="#"   target='blank' aria-label="Telegram">
+            <a href="https://t.me/PLS_SIMP_HUB"   target='blank' aria-label="Telegram">
               <img src={tele} alt="Telegram" className="w-8" />
             </a>
-            <a href="#"  target='blank'  aria-label="Twitter">
+            <a href="https://x.com/pls_simp"  target='blank'  aria-label="Twitter">
               <img src={twtr} alt="Twitter" className="w-8" />
             </a>
           </div>
