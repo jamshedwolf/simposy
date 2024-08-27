@@ -27,7 +27,8 @@ function Tokenomics() {
                 <div className="text-center">The SIMP token ($IMP) is the native cryptocurrency of our community.<br/>
 “0% of tokens were given to founders, 100% was on offer with <a href="www.coinhub.gg" target='blank' className="cursor-pointer text-[#ff9700]">coinhub.gg</a> fair launch <br/>platform meaning all tokens belong to the community with founders needing to buy from the launch pool on CoinHub.
 
-<p className="mt-3">With our special $IMP NFT collections on our road map you will need to be holding $IMP coins to be able to mint.<br/> Depending on the rarity of the</p>
+
+<p className="orign mt-4">With our special $IMP NFT collections on our road map you will need to be holding $IMP coins to be able to mint. <br/>Depending on the grade of the NFT will determine the amount of $IMP required to be held for mintability!<br/> Checkout the white paper for the hidden easter egg (it's not really hidden but read it)</p>
 </div>
                 <div className="flex items-center flex-col lg:flex-row justify-center h-full gap-10">
                     <div data-aos="fade-right" className="border w-[350px] lg:w-[420px] h-[650px]    rounded-[20px] py-20 flex items-center justify-center flex-col gap-2 p-2  lg:p-5">
@@ -61,22 +62,17 @@ function Tokenomics() {
                     </div>
                     <div data-aos="fade-left" className="border w-[350px] lg:w-[420px] h-[650px] py-10 flex flex-col bg-transparent  items-center gap-7  justify-center rounded-[20px] p-5">
                         <p className="text-3xl  origin text-[#ff9700] text-center">Token <span className="origin text-white">Distribution</span></p>
-<p className="text-center">$IMP was fairly launched on coinhub where everyone, even the founders purchased their allocations, nothing was given for free.</p>
-                        <div className="flex  text gap-5">
                             
-                            <div className="">-3% Liquidity</div>
-                            <div className="">12% Locked</div>
-
-
-                        </div>
+                        <p className="text-center">$IMP was fairly launched on coinhub where everyone, even the founders purchased their allocations, nothing was given for free.</p>
+                       
                         <div className="w-[200px] h-[200px] border rounded-full flex items-center justify-center gre mx-auto">
                             <div className="flex items-center justify-center p-2  rounded-full bg-[#464037]"><img src={voin} alt="" className="w-[100px]" /></div>
 
                         </div>
-                        <div className="">50% Presale</div>
-                        <p className="text-2xl  origin text-[#ff9700] text-center">Token Taxes-5/5</p>
+                       
+                        <p className="  origin text-[#ff9700] text-center">CoinHub prevents rugs by making sure that all created tokens are safe. Each coin on CoinHub is a fair-launch with no presale and no team allocation.</p>
 
-                        <div className="">5% CEX and Marketting</div>
+                     
 
 
                     </div>

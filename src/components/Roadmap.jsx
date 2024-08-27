@@ -134,10 +134,10 @@ function Roadmap() {
 
                 <div className=" h-[2500px]  w-[1px] mt-40 hidden lg:block  border-white border-l-4 border-dotted"></div>
 
-                <div className="flex flex-col items-center lg:hidden gap-20 justify-center">
+                <div className="flex flex-col items-between  lg:hidden  justify-center">
 
 
-                    <div data-aos="fade-left" className="w-[300px] flex flex-col items-center justify-center px-2    h-[80px]">
+                    <div data-aos="fade-left" className="w-[300px]   flex flex-col items-center justify-center px-2    h-[80px]">
 
                         <div className="w-[250px] flex items-center justify-center flex-col bg-[#1f1d1d] border-2 p-5 h-[120px] rounded-lg  ">
                         <p className="text-2xl text-center text-[#f87a23] erth">PHASE <span className="origin text-white text-4xl">01</span></p>
@@ -145,7 +145,8 @@ function Roadmap() {
                         </div>
 
                     </div>
-                    <div data-aos="fade-right" className="w-[300px] flex flex-col items-center justify-center px-2    h-[80px]">
+                  
+                    <div data-aos="fade-right" className="w-[300px] mt-[60px] flex flex-col items-center justify-center px-2    h-[80px]">
 
                         <div className="w-[250px] flex items-center justify-center flex-col bg-[#1f1d1d] border-2 p-5 h-[120px] rounded-lg  ">
                         <p className="text-2xl text-center text-[#f87a23] erth">PHASE <span className="origin text-white text-4xl">02</span></p>
@@ -153,7 +154,7 @@ function Roadmap() {
                         </div>
 
                     </div>
-                    <div data-aos="fade-left" className="w-[300px] flex flex-col items-center justify-center px-2    h-[80px]">
+                    <div data-aos="fade-left" className="w-[300px] flex  mt-[80px] flex-col items-center justify-center px-2    h-[80px]">
 
                         <div className="w-[250px] flex items-center justify-center flex-col bg-[#1f1d1d] border-2 p-5 h-[140px] rounded-lg  ">
                         <p className="text-2xl text-center text-[#f87a23] erth">PHASE <span className="origin text-white text-4xl">03</span></p>
@@ -161,7 +162,7 @@ function Roadmap() {
                         </div>
 
                     </div>
-                    <div data-aos="fade-right" className="w-[300px] flex flex-col items-center justify-center px-2    h-[80px]">
+                    <div data-aos="fade-right" className="w-[300px] flex flex-col  mt-[110px] items-center justify-center px-2    h-[80px]">
 
                         <div className="w-[250px] flex items-center justify-center flex-col bg-[#1f1d1d] border-2 p-5 h-[160px] rounded-lg  ">
                         <p className="text-2xl text-center text-[#f87a23] erth">PHASE <span className="origin text-white text-4xl">04</span></p>
@@ -169,7 +170,7 @@ function Roadmap() {
                         </div>
 
                     </div>
-                    <div data-aos="fade-left" className="w-[300px] flex flex-col items-center justify-center px-2    h-[80px]">
+                    <div data-aos="fade-left" className="w-[300px] flex flex-col mt-[100px] items-center justify-center px-2    h-[80px]">
 
                         <div className="w-[250px] flex items-center justify-center flex-col bg-[#1f1d1d] border-2 p-5 h-[120px] rounded-lg  ">
                         <p className="text-2xl text-center text-[#f87a23] erth">PHASE <span className="origin text-white text-4xl">05</span></p>
@@ -177,7 +178,7 @@ function Roadmap() {
                         </div>
 
                     </div>
-                    <div data-aos="fade-right" className="w-[300px] flex flex-col items-center justify-center px-2    h-[80px]">
+                    <div data-aos="fade-right" className="w-[300px] flex flex-col mt-[80px] items-center justify-center px-2    h-[80px]">
 
                         <div className="w-[250px] flex items-center justify-center flex-col bg-[#1f1d1d] border-2 p-5 h-[120px] rounded-lg  ">
                         <p className="text-2xl text-center text-[#f87a23] erth">PHASE <span className="origin text-white text-4xl">06</span></p>
@@ -185,7 +186,7 @@ function Roadmap() {
                         </div>
 
                     </div>
-                    <div data-aos="fade-left" className="w-[300px] flex flex-col items-center justify-center px-2    h-[80px]">
+                    <div data-aos="fade-left" className="w-[300px] flex flex-col mt-[80px] items-center justify-center px-2    h-[80px]">
 
                         <div className="w-[250px] flex items-center justify-center flex-col bg-[#1f1d1d] border-2 p-5 h-[120px] rounded-lg  ">
                         <p className="text-2xl text-center text-[#f87a23] erth">PHASE <span className="origin text-white text-4xl">07</span></p>
@@ -193,7 +194,7 @@ function Roadmap() {
                         </div>
 
                     </div>
-                    <div data-aos="fade-right" className="w-[300px] flex flex-col items-center justify-center px-2    h-[80px]">
+                    <div data-aos="fade-right" className="w-[300px] flex flex-col mt-[80px] items-center justify-center px-2    h-[80px]">
 
                         <div className="w-[250px] flex items-center justify-center flex-col bg-[#1f1d1d] border-2 p-5 h-[120px] rounded-lg  ">
                         <p className="text-2xl text-center text-[#f87a23] erth">PHASE <span className="origin text-white text-4xl">08</span></p>
@@ -201,7 +202,7 @@ function Roadmap() {
                         </div>
 
                     </div>
-                    <div data-aos="fade-left" className="w-[300px] flex flex-col items-center justify-center px-2    h-[80px]">
+                    <div data-aos="fade-left" className="w-[300px] flex flex-col mt-[80px] items-center justify-center px-2    h-[80px]">
 
                         <div className="w-[250px] flex items-center justify-center flex-col bg-[#1f1d1d] border-2 p-5 h-[120px] rounded-lg  ">
                         <p className="text-2xl text-center text-[#f87a23] erth">PHASE <span className="origin text-white text-4xl">09</span></p>
