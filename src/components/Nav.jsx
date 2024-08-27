@@ -80,22 +80,22 @@ function Nav() {
 
           <div className="flex text-black items-center justify-center gap-4">
             <a href="" target='blank'>
-              <img src={discord} alt="Discord" className="w-8 transition-all duration-300 hover:scale-110" />
+              <img src={discord} alt="Discord" className="w-8  transition-all duration-300 hover:scale-110" />
             </a>
             <a href=" https://t.me/PLS_SIMP_HUB" target='blank'>
-              <img src={tele} alt="Telegram" className="w-8 transition-all duration-300 hover:scale-110" />
+              <img src={tele} alt="Telegram" className="w-8  transition-all duration-300 hover:scale-110" />
             </a>
             <a href="https://x.com/pls_simp" target='blank'  >
-              <img src={twtr} alt="Twitter" className="w-8 h-8  transition-all duration-300 hover:scale-110 rounded-full" />
+              <img src={twtr} alt="Twitter" className="w-8 h-8   transition-all duration-300 hover:scale-110 rounded-full" />
             </a>
           </div>
 
 
-          <button className="px-5 gap-2 flex items-center transition-all duration-300  bg-[#ff9900] hover:bg-transparent hover:border-2 border-[#ff9900] text-white rounded-lg py-1 min-w-fit">
+          <button className="px-5 gap-2 flex  bounce-top items-center transition-all duration-300  bg-[#ff9900] hover:bg-transparent hover:border-2 border-[#ff9900] text-white rounded-lg py-1 min-w-fit">
             <FaWallet /> Connect Wallet
           </button>
           <a href="https://jamsheeds-organization.gitbook.io/untitled/" className="">
-            <button className="px-8 border-2 flex gap-2 items-center bg-transparent border-[#ff9900] text-white rounded-lg py-[2px] min-w-fit transition-all duration-300">
+            <button className="px-8 border-2  flex gap-2 items-center bg-transparent border-[#ff9900] text-white rounded-lg py-[2px] min-w-fit transition-all duration-300">
               WhitePaper
             </button>
           </a>

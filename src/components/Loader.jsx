@@ -16,7 +16,7 @@ const [loader,setLoader]=useState(false);
 
 
 
-<img src={simp} alt="" className="w-[400px]" />
+<img src={simp} alt="" className="w-[400px] " />
 <p className="text-[400px] font-bold origin text-[#ff9900]">$IMP</p>
     </div>
   )
