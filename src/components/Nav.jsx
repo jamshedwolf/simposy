@@ -94,7 +94,7 @@ function Nav() {
           <button className="px-5 gap-2 flex  bounce-top items-center transition-all duration-300  bg-[#ff9900] hover:bg-transparent hover:border-2 border-[#ff9900] text-white rounded-lg py-1 min-w-fit">
             <FaWallet /> Connect Wallet
           </button>
-          <a href="https://jamsheeds-organization.gitbook.io/untitled/" className="">
+          <a href="https://simp.gitbook.io/simp/" className="">
             <button className="px-8 border-2  flex gap-2 items-center bg-transparent border-[#ff9900] text-white rounded-lg py-[2px] min-w-fit transition-all duration-300">
               WhitePaper
             </button>
@@ -147,7 +147,7 @@ function Nav() {
               <FaWallet /> Connect Wallet
             </button>
 
-            <a href="https://jamsheeds-organization.gitbook.io/untitled/" className="">
+            <a href="https://simp.gitbook.io/simp/" className="">
               <button className="px-5 border-2 flex gap-2 items-center bg-transparent border-[#ff9900] text-white rounded-lg py-2 min-w-fit transition-all duration-300">
                 WhitePaper
               </button>
